@@ -1,0 +1,43 @@
+Create Sample Application
+
+BACKEND
+
+Create a REST API using any framework and database (sql or non-sql)
+(Recommendation Springboot and PostgreSQL/MySql)
+
+Entities: Student (1 -> N) Course
+- Student (id, firstName, lastName, email, password, mobileNumber)
+- Course (id, studentId, name, description)
+
+Endpoints:
+- Get /students
+- Get /students/{id}
+- Post /students
+- Put /students/{id}
+- Post /students/{id}/courses
+- Get /students/{id}/courses
+
+FRONTEND
+
+Create a Quasar SPA application using:
+
+- Vuex
+- Vue-router
+- Axios
+- Sass
+
+Create following pages:
+
+- Create/Update student
+- List students
+- Create student course
+- List student courses
+
+Instructions of presenting evaluation:
+- Upload project to a public repository on Github and share the url
+- Expected time: 5 days from receiving this email
+
+Recommendations
+- Write code in English
+- Use best-practices
+- Create clean code
